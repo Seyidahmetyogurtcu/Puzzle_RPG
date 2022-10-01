@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08db29b6af5178943b7e9787f04a8a6f, type: 3}
+  m_Name: Level
+  m_EditorClassIdentifier: 
+  gemList:
+  - {fileID: 11400000, guid: da8bebcf35857da4380e3eb13c1c1c09, type: 2}
+  - {fileID: 11400000, guid: 3d64515bab661b44ca3aa7b55e77de6b, type: 2}
+  - {fileID: 11400000, guid: 2db69f2387e0c934e8caed8b5d8157c4, type: 2}
+  - {fileID: 11400000, guid: 893fb5370767a954aba5a0af5d2b9964, type: 2}
+  - {fileID: 11400000, guid: 185904ecef031114a84a2a4433e30243, type: 2}
+  width: 7
+  height: 5
+  levelGridPositionList:
+  - gemSO: {fileID: 11400000, guid: 893fb5370767a954aba5a0af5d2b9964, type: 2}
+    x: 0
+    y: 0
+  - gemSO: {fileID: 11400000, guid: da8bebcf35857da4380e3eb13c1c1c09, type: 2}
+    x: 0
+    y: 1
+  - gemSO: {fileID: 11400000, guid: 3d64515bab661b44ca3aa7b55e77de6b, type: 2}
+    x: 0
+    y: 2
+  - gemSO: {fileID: 11400000, guid: da8bebcf35857da4380e3eb13c1c1c09, type: 2}
+    x: 0
+    y: 3
+  - gemSO: {fileID: 11400000, guid: 3d64515bab661b44ca3aa7b55e77de6b, type: 2}
+    x: 0
+    y: 4
+  - gemSO: {fileID: 11400000, guid: 893fb5370767a954aba5a0af5d2b9964, type: 2}
+    x: 1
+    y: 0
+  - gemSO: {fileID: 11400000, guid: 3d64515bab661b44ca3aa7b55e77de6b, type: 2}
+    x: 1
+    y: 1
+  - gemSO: {fileID: 11400000, guid: 185904ecef031114a84a2a4433e30243, type: 2}
+    x: 1
+    y: 2
+  - gemSO: {fileID: 11400000, guid: 185904ecef031114a84a2a4433e30243, type: 2}
+    x: 1
+    y: 3
+  - gemSO: {fileID: 11400000, guid: 893fb5370767a954aba5a0af5d2b9964, type: 2}
+    x: 1
+    y: 4
+  - gemSO: {fileID: 11400000, guid: 893fb5370767a954aba5a0af5d2b9964, type: 2}
+    x: 2
+    y: 0
+  - gemSO: {fileID: 11400000, guid: 893fb5370767a954aba5a0af5d2b9964, type: 2}
+    x: 2
+    y: 1
+  - gemSO: {fileID: 11400000, guid: 893fb5370767a954aba5a0af5d2b9964, type: 2}
+    x: 2
+    y: 2
+  - gemSO: {fileID: 11400000, guid: da8bebcf35857da4380e3eb13c1c1c09, type: 2}
+    x: 2
+    y: 3
+  - gemSO: {fileID: 11400000, guid: 2db69f2387e0c934e8caed8b5d8157c4, type: 2}
+    x: 2
+    y: 4
+  - gemSO: {fileID: 11400000, guid: da8bebcf35857da4380e3eb13c1c1c09, type: 2}
+    x: 3
+    y: 0
+  - gemSO: {fileID: 11400000, guid: 185904ecef031114a84a2a4433e30243, type: 2}
+    x: 3
+    y: 1
+  - gemSO: {fileID: 11400000, guid: 893fb5370767a954aba5a0af5d2b9964, type: 2}
+    x: 3
+    y: 2
+  - gemSO: {fileID: 11400000, guid: 2db69f2387e0c934e8caed8b5d8157c4, type: 2}
+    x: 3
+    y: 3
+  - gemSO: {fileID: 11400000, guid: 893fb5370767a954aba5a0af5d2b9964, type: 2}
+    x: 3
+    y: 4
+  - gemSO: {fileID: 11400000, guid: 185904ecef031114a84a2a4433e30243, type: 2}
+    x: 4
+    y: 0
+  - gemSO: {fileID: 11400000, guid: 893fb5370767a954aba5a0af5d2b9964, type: 2}
+    x: 4
+    y: 1
+  - gemSO: {fileID: 11400000, guid: da8bebcf35857da4380e3eb13c1c1c09, type: 2}
+    x: 4
+    y: 2
+  - gemSO: {fileID: 11400000, guid: 3d64515bab661b44ca3aa7b55e77de6b, type: 2}
+    x: 4
+    y: 3
+  - gemSO: {fileID: 11400000, guid: da8bebcf35857da4380e3eb13c1c1c09, type: 2}
+    x: 4
+    y: 4
+  - gemSO: {fileID: 11400000, guid: da8bebcf35857da4380e3eb13c1c1c09, type: 2}
+    x: 5
+    y: 0
+  - gemSO: {fileID: 11400000, guid: 3d64515bab661b44ca3aa7b55e77de6b, type: 2}
+    x: 5
+    y: 1
+  - gemSO: {fileID: 11400000, guid: da8bebcf35857da4380e3eb13c1c1c09, type: 2}
+    x: 5
+    y: 2
+  - gemSO: {fileID: 11400000, guid: 185904ecef031114a84a2a4433e30243, type: 2}
+    x: 5
+    y: 3
+  - gemSO: {fileID: 11400000, guid: 185904ecef031114a84a2a4433e30243, type: 2}
+    x: 5
+    y: 4
+  - gemSO: {fileID: 11400000, guid: 3d64515bab661b44ca3aa7b55e77de6b, type: 2}
+    x: 6
+    y: 0
+  - gemSO: {fileID: 11400000, guid: 185904ecef031114a84a2a4433e30243, type: 2}
+    x: 6
+    y: 1
+  - gemSO: {fileID: 11400000, guid: 893fb5370767a954aba5a0af5d2b9964, type: 2}
+    x: 6
+    y: 2
+  - gemSO: {fileID: 11400000, guid: 185904ecef031114a84a2a4433e30243, type: 2}
+    x: 6
+    y: 3
+  - gemSO: {fileID: 11400000, guid: 2db69f2387e0c934e8caed8b5d8157c4, type: 2}
+    x: 6
+    y: 4
+  goalType: 0
+  moveAmount: 50
+  targetScore: 200000
